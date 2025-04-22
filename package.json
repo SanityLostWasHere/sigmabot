@@ -1,0 +1,24 @@
+{
+  "name": "talkomatic-bot-guide",
+  "version": "1.0.0",
+  "description": "This guide will teach you how to create your own little bot in Talkomatic Classic and Talkomatic Modern!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZackiBoiz/Talkomatic-Bot-Guide.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ZackiBoiz/Talkomatic-Bot-Guide/issues"
+  },
+  "homepage": "https://github.com/ZackiBoiz/Talkomatic-Bot-Guide#readme",
+  "dependencies": {
+    "socket.io-client": "^4.8.1"
+  }
+}

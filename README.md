@@ -8,11 +8,17 @@ Make sure you download the latest version of **[Node](https://nodejs.org/en/down
 
 ## Talkomatic Classic Guide
 
+*If you, for some reason just want ~~to skid~~ the code, by all means it is in `index.js`!*
+
 ### Getting Started
 
 This tutorial teaches you how to create a bot using `Node.js`, but you can use any language that supports the use of `WebSockets`!
 
-Create your project and install `Socket.IO` so we can interact with `WebSockets`:
+Create your project and first initialize, then install `Socket.IO` so we can interact with `WebSockets`:
+```sh
+npm init -y
+```
+
 ```sh
 npm i socket.io-client
 ```
@@ -123,7 +129,7 @@ Talkomatic Classic has a unique way of storing user messages. Talkomatic Classic
 At the top of your program under the `const socket` line, initialize a `users` object where we will store user data and typing data:
 
 ```js
-var users = {};
+let users = {};
 ```
 
 We should listen for when users leave, join, and when our bot initializes. Replace the `room joined` listener with:
@@ -172,7 +178,7 @@ socket.on("chat update", async (data) => {
       author.typing = data.diff.text;
     } else {
       const cur_text = author.typing;
-      var new_text;
+      let new_text;
 
       switch (data.diff.type) {
         case "add":
