@@ -8,7 +8,7 @@ Make sure you download the latest version of **[Node](https://nodejs.org/en/down
 
 ## Talkomatic Classic Guide
 
-*If you, for some reason just want ~~to skid~~ the code, by all means it is in `index.js`!*
+*If you, for some reason just want ~~to skid~~ the code, by all means it is in [`index.js`](https://github.com/ZackiBoiz/Talkomatic-Bot-Guide/blob/main/index.js)!*
 
 ### Getting Started
 
