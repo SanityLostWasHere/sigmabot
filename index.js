@@ -6,12 +6,12 @@ socket.on("connect", async () => {
     console.log("Socket connected!");
 
     socket.emit("join lobby", {
-        username: "TutorialBot",
-        location: "Somewhere"
+        username: "SigmaBot",
+        location: "BotBotBot"
     });
 
     socket.emit("join room", {
-        roomId: "787949"
+        roomId: "219456"
     });
 });
 
